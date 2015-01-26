@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/93185541/Strip/css/style.css">
+		<script type="text/javascript" src="https://dl.dropboxusercontent.com/u/93185541/Strip/scripts/script.js"></script>
+		<title>Strip</title>
+	</head>
+	<body id="bod">
+		<div id="main">
+			<div id="strip">
+				<div id="left">
+					<div class="title" style="font-size: 16px;">Title Here</div>
+					<form>Enter the title text:</br>
+						<input style="color:black" type="text" id="titleText" value="Title Here" onblur="changeTitle()"></br></br>
+						
+						Choose the position of the title text:
+						L<input type="radio" value="left" id="le" onclick="changePosLeft()">
+						C<input type="radio" value="center" id="ce" onclick="changePosMid()">
+						R<input type="radio" value="right" id="ri" onclick="changePosRight()"></br>
+						
+						<div>Choose a background color:</br>
+						R: <input type="range" id="red" onchange="color()"></br>
+						G: <input type="range" id="green" onchange="color()"></br>
+						B: <input type="range" id="blue" onchange="color()"></br>
+						O: <input type="range" id="opac" onchange="color()"></div></br>
+						
+						<textarea id="txtrea" style="color:black" rows="2" cols="30" onchange="text()">Please enter the text that you want to display in the middle box.
+						</textarea></br></br>
+						
+						Select an image: <select id="selector" style="color:black" onchange="theme()">
+							<option value="Animals">Animals</option>
+							<option value="Food">Food</option>
+							<option value="Sports">Sports</option>
+							<option value="People">People</option>
+							<option value="Tech">Tech</option>
+						</select></br></br>
+						
+						Click on a logo:</br>
+						<div class="symb" id="logo1" onclick="logo1()">&#9821;</div>
+						<div class="symb" id="logo2" onclick="logo2()">&#9822;</div>
+						<div class="symb" id="logo3" onclick="logo3()">&#9823;</div>
+						<div class="symb" id="logo4" onclick="logo4()">&#9824;</div>
+						<div class="symb" id="logo5" onclick="logo5()">&#9825;</div>
+						<div class="symb" id="logo6" onclick="logo6()">&#9826;</div>
+						<div class="symb" id="logo7" onclick="logo7()">&#9827;</div>
+						<div class="symb" id="logo8" onclick="logo8()">&#9828;</div>
+						</br></br>
+
+						Choose a social media icon:</br>
+						Facebook:<input class="social" type="checkbox" id="facebook" onclick="fb()"> 
+						Instagram:<input class="social" type="checkbox" id="instagram" onclick="ins()"> 
+						Pinterest:<input class="social" type="checkbox" id="pinterest" onclick="pi()"> 
+						Twitter:<input class="social" type="checkbox" id="twitter" onclick="tw()">
+					</form>
+				</div>
+				<div id="mid">
+					<div id="leftmid">
+						<div class="title">Title Here</div>
+						<div id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam facere odit molestias. Nemo, delectus, non. Provident tempora nostrum quibusdam aliquid earum rem, ut laborum facere voluptatibus, a ad reprehenderit perferendis.</div>
+					</div>
+					<div id="rightmid">
+						<div id="picture"></div>
+					</div>
+				</div>
+				<div id="right">
+					<div id="uni">&#9821;</div>
+					<div class="title">Title Here</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="face"><img class="imgs" src="https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/fb.png" alt="fb"></div>
+				<div id="inst"><img class="imgs" src="https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/inst.png" alt="inst"></div>
+				<div id="pint"><img class="imgs" src="https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/pint.png" alt="pint"></div>
+				<div id="twit"><img class="imgs" src="https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/twit.png" alt="twit"></div>
+			</div>
+		</div>
+	</body>
+</html>

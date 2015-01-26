@@ -1,0 +1,145 @@
+*{
+padding: 0px;
+margin: 0px;
+border: 0px;
+font-family: Helvetica;
+/*background: url(https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/animals.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;*/
+}
+
+#main{
+width: 100%;
+height: 100%;
+background: url(https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/animals.jpeg);
+/*1292x783*/
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: left;
+}
+
+/*body{
+background: url(https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/animals.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+*/
+#strip{
+position: relative;
+float: left;
+width: 80%;
+height: 50%;
+margin-top: 300px;
+margin-bottom: 52px;
+}
+
+#left{
+width: 22%;
+height: 300px;
+float: left;
+margin-right: 10px;
+background-color: rgba(0,0,0,.7);
+color: white;
+padding: 5px;
+font-size: 10px;
+}
+
+#mid{
+width: 40%;
+height: 300px;
+float: left;
+margin-right: 10px;
+background-color: rgba(0,0,0,.7);
+color: white;
+padding: 5px;
+}
+
+#right{
+width: 22%;
+height: 300px;
+float: left;
+background-color: rgba(0,0,0,.7);
+color: white;
+padding: 5px;
+text-align: center;
+font-size: 50px;
+}
+
+#leftmid{
+padding-top: 60px;
+float: left;
+width: 50%;
+margin-left: 10px;
+font-size: 20px;
+text-align: center;
+}
+
+#rightmid{
+padding-top: 10px;
+float: left;
+width: 45%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#picture{
+background: url(https://dl.dropboxusercontent.com/u/93185541/Strip/imgs/animalsmall.jpeg);
+width: 100px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+text-align: justify;
+margin-top: 70px;
+border: 1px solid white;
+background-repeat: no-repeat;
+}
+
+#uni{
+/*color: white;*/
+font-size: 100px;
+padding-top: 40px;
+}
+
+#text{
+padding-top: 20px;
+font-size: 14px;
+word-wrap: break-word;
+}
+
+.symb{
+float: left;
+font-size: 14px;
+padding-left: 5px;
+line-height: 1em;
+}
+
+#footer{
+position: relative;
+/*background-color: white;*/
+clear: both;
+/*padding: 10px;*/
+padding-bottom: 50px;
+}
+
+.imgs{
+width: 50px;
+height: 50px;
+float: right;
+}
+
+#face{
+visibility: hidden;
+}
+
+#inst{
+visibility: hidden;
+}
+
+#pint{
+visibility: hidden;
+}
+
+#twit{
+visibility: hidden;
+}
