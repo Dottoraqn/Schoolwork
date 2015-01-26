@@ -1,0 +1,138 @@
+*{
+padding: 0px;
+margin: 0px;
+border: 0px;
+font-family: Helvetica;
+}
+
+body{
+background: url(https://dl.dropbox.com/u/93185541/Project2/imgs/boxbackground.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#footer{
+clear: both;
+text-align: center;
+background-color: white;
+font-weight: bold;
+padding: 10px;
+font-size: 30px;
+}
+
+#header{
+float: left;
+width: 25%;
+height: 80px;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 10px;
+background-color: rgba(255,255,255,.3);
+}
+
+.item{
+padding-top: 33px;
+padding-bottom: 33px;
+}
+
+#nav{
+float: left;
+width: 75%;
+height: 80px;
+padding-top: 10px;
+padding-bottom: 40px;
+background-color: rgba(255,255,255,.3);
+}
+
+#nav ul{
+text-align: center;
+}
+
+#nav li{
+list-style-type: none;
+display: block;
+float: left;
+width: 8%;
+text-decoration: none;
+text-align: center;
+padding:10px;
+border-radius: 90%;
+background-color: #000;
+color: white;
+margin-right: 90px;
+}
+
+#nav li a{
+text-decoration: none;
+color: white;
+}
+
+#nav li a.active{
+background-color: gray;
+color: white;
+}
+
+#nav li:hover{
+background-color: gray;
+color: white;
+}
+
+#top{
+padding-bottom: 130px;
+background: url(https://dl.dropbox.com/u/93185541/Project2/imgs/banner.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+float: center;
+}
+
+#boo{
+padding: 5px;
+background-color: white;
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+font-style: italic;
+}
+
+/*shit that changes*/
+
+#main{
+width: 85%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 5px;
+padding-bottom: 209px;
+background-color: rgba(255,255,255,.7);
+}
+
+#topImg{
+display: block;
+margin-right: auto;
+margin-left: auto;
+padding: 4px;
+}
+
+#bottom{
+display: block;
+padding-left: 4px;
+padding-right: 4px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#left{
+width: 47%;
+padding-left: 5px;
+padding-right: 10px;
+float: left;
+}
+
+#right{
+width: 47%;
+padding-left: 27px;
+padding-right: 5px;
+float: left;
+}

@@ -1,0 +1,158 @@
+*{
+padding: 0px;
+margin: 0px;
+border: 0px;
+font-family: Helvetica;
+}
+
+body{
+background: url(https://dl.dropbox.com/u/93185541/Project2/imgs/background.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#footer{
+clear: both;
+text-align: center;
+background-color: white;
+font-weight: bold;
+padding: 10px;
+font-size: 30px;
+margin-top: 20px;
+}
+
+#header{
+float: left;
+width: 25%;
+height: 80px;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 10px;
+background-color: rgba(255,255,255,.3);
+}
+
+.item{
+padding-top: 33px;
+padding-bottom: 33px;
+}
+
+#nav{
+float: left;
+width: 75%;
+height: 80px;
+padding-top: 10px;
+padding-bottom: 40px;
+background-color: rgba(255,255,255,.3);
+}
+
+#nav ul{
+text-align: center;
+}
+
+#nav li{
+list-style-type: none;
+display: block;
+float: left;
+width: 8%;
+text-decoration: none;
+text-align: center;
+padding:10px;
+border-radius: 90%;
+background-color: #000;
+color: white;
+margin-right: 90px;
+}
+
+#nav li a{
+text-decoration: none;
+color: white;
+}
+
+#nav li a.active{
+background-color: gray;
+color: white;
+}
+
+#nav li:hover{
+background-color: gray;
+color: white;
+}
+
+#top{
+padding-bottom: 130px;
+background: url(https://dl.dropbox.com/u/93185541/Project2/imgs/banner.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+float: center;
+}
+
+#boo{
+padding: 5px;
+background-color: white;
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+font-style: italic;
+}
+
+#main{
+padding-left: 40px;
+padding-right: 40px;
+margin-top: 20px;
+}
+
+.colimg{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+border: 1px solid black;
+}
+
+/*SHIT THAT CHANGES*/
+
+#leftHead{
+text-align: center;
+font-size: 30px;
+padding-bottom: 10px;
+}
+
+#midHead{
+text-align: center;
+font-size: 30px;
+padding-bottom: 10px;
+}
+
+#rightHead{
+text-align: center;
+font-size: 30px;
+padding-bottom: 10px;
+}
+
+#left{
+float: left;
+width: 30%;
+padding: 20px;
+margin-bottom: 20px;
+text-align: justify;
+background-color: rgba(255,255,255,.7);
+}
+
+#mid{
+float: left;
+margin-left: 7px;
+padding: 20px;
+width: 30%;
+margin-bottom: 20px;
+text-align: justify;
+background-color: rgba(255,255,255,.7);
+}
+
+#right{
+float: right;
+padding: 20px;
+width: 30%;
+margin-bottom: 20px;
+text-align: justify;
+background-color: rgba(255,255,255,.7);
+}

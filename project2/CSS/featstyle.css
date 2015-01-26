@@ -1,0 +1,140 @@
+*{
+padding: 0px;
+margin: 0px;
+border: 0px;
+font-family: Helvetica;
+}
+
+body{
+background: url(https://dl.dropbox.com/u/93185541/Project2/imgs/background.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+
+.colimg{
+height: 100%;
+width: 100%;
+opacity: 0;
+}
+
+#footer{
+clear: both;
+text-align: center;
+background-color: white;
+font-weight: bold;
+padding: 10px;
+font-size: 30px;
+/*margin-top: 100px;*/
+bottom: 100%;
+height: 5%;
+}
+
+#header{
+float: left;
+width: 25%;
+height: 80px;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 10px;
+background-color: rgba(255,255,255,.3);
+}
+
+.item{
+padding-top: 33px;
+padding-bottom: 33px;
+}
+
+#nav{
+float: left;
+width: 75%;
+height: 80px;
+padding-top: 10px;
+padding-bottom: 40px;
+background-color: rgba(255,255,255,.3);
+}
+
+#nav ul{
+text-align: center;
+}
+
+#nav li{
+list-style-type: none;
+display: block;
+float: left;
+width: 8%;
+text-decoration: none;
+text-align: center;
+padding:10px;
+border-radius: 90%;
+background-color: #000;
+color: white;
+margin-right: 90px;
+}
+
+#nav li a{
+text-decoration: none;
+color: white;
+}
+
+#nav li a.active{
+background-color: gray;
+color: white;
+}
+
+#nav li:hover{
+background-color: gray;
+color: white;
+}
+
+#top{
+padding-bottom: 130px;
+background: url(https://dl.dropbox.com/u/93185541/Project2/imgs/banner.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+float: center;
+}
+
+#boo{
+padding: 5px;
+background-color: white;
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+font-style: italic;
+}
+
+#overlay{
+width: 80%;
+margin-left: auto;
+margin-right:auto;
+}
+
+#picture{
+margin-top: 70px;
+margin-bottom: 70px;
+display: block;
+float: right;
+width: 500px;
+height: 500px;
+border-radius: 250px;
+/*margin-right: 150px;*/
+padding: 10px;
+background-color: rgba(255,255,255,.7);
+}
+
+.circ{
+width: 500px;
+height: 500px;
+border-radius: 250px;
+/*background: url(https://link-to-your/image.jpeg) no-repeat;*/
+}
+
+#text{
+margin-top: 150px;
+float: left;
+width: 35%;
+padding: 10px;
+text-align: justify;
+background-color: rgba(255,255,255,.7);
+}
