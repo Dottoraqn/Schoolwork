@@ -6,9 +6,11 @@ font-family: 'Oswald', sans-serif;
 font-weight: 300;
 }
 
-html,body{
+html{
 height: 100%;
+background-color: #F6F6F6;
 }
+
 
 #main{
 /*border-top: 10px solid #222;*/
