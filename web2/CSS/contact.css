@@ -185,9 +185,12 @@ margin-bottom: 3%;
 width: 85%;
 padding: 1.5%;
 font-size: 140%;
+text-decoration: none;
 display: block;
 margin-right: auto;
 margin-left: auto;
+text-align: center;
+color: #222;
 }
 
 .descText{
@@ -199,32 +202,16 @@ margin-right: auto;
 margin-left: auto;
 }
 
-#pic{
-width: 51.5%;
-float: left;
-padding-right: 1%;
-padding-top: .5%;
-}
-
 #text{
 position: relative;
-width: 100%;
-float: left;
-font-size: 130%;
-padding-bottom: 1%;
-}
-
-#foot{
-position: relative;
-background-color: rgb(195, 195, 195);
-font-size: 2px;
-color: rgba(255,255,255,0.0);
-width: 80%;
-height: 1%;
+clear: both;
+width: 85%;
 display: block;
-margin-left: auto;
+text-align: center;
+font-size: 130%;
+padding-top,left,right: 4%;
 margin-right: auto;
-border-radius: 100%;
+margin-left: auto;
 }
 
 #footer{
@@ -232,6 +219,7 @@ position: relative;
 text-align: center;
 clear: both;
 padding: 1%;
+margin-top: 40%;
 border-top: 2px solid rgb(195, 195, 195);
 }
 
