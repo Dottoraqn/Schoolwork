@@ -14,7 +14,7 @@ background-color: #F6F6F6;
 
 #main{
 /*border-top: 10px solid #222;*/
-margin-top: 5.5%;
+margin-top: 9.5vh;
 }
 
 #sidebar{
@@ -63,11 +63,11 @@ border-radius: 100%;
 position: fixed;
 float: left;
 font-size: 3vw;
-border-right: 10px solid #222;
-padding-top: 1%;
-padding-bottom: 1.5%;
-margin-top: .8%;
-width: 20%;
+/*border-right: 10px solid #222;*/
+padding-top: 2.6vh;
+padding-bottom: 1.5vh;
+margin-top: .8vh;
+width: 20vw;
 text-align: center;
 text-decoration: none;
 color: #222;
