@@ -123,26 +123,6 @@ padding-top: 1.5vh;
 z-index: -1;
 }
 
-#bar{
-position: relative;
-clear: both;
-width: 65vw;
-margin-right: auto;
-margin-left: auto;
-}
-
-#text{
-position: relative;
-clear: both;
-width: 65vw;
-display: block;
-text-align: center;
-font-size: 3.5vh;
-padding-top,left,right: 4vw;
-margin-right: auto;
-margin-left: auto;
-}
-
 #footer{
 position: relative;
 text-align: center;
@@ -174,6 +154,7 @@ font-size: 4vh;
 display: block;
 margin-right: auto;
 margin-left: auto;
+text-align: center;
 text-decoration: none;
 color: #222;
 }
