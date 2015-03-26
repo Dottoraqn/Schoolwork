@@ -126,7 +126,7 @@ z-index: -1;
 #text{
 position: relative;
 float: left;
-font-size: 3.3vh;
+font-size: 3.2vh;
 padding-bottom: 3vh;
 }
 
@@ -175,7 +175,13 @@ margin-left: auto;
 
 #pic{
 width: 38vw;
+height: 93vh;
 float: left;
 padding-right: .8vw;
 padding-top: .7vh;
+}
+
+.sp{
+font-size: 2.8vh;
+color: rgba(255,255,255,0.0);
 }
